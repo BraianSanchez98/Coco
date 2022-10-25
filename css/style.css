@@ -1,0 +1,48 @@
+.hero
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #08081a;
+    opacity: 1;
+    background-size: 55px 45px;
+    background-image:  repeating-linear-gradient(0deg, #4599f7, #4599f7 3px, #08081a 3px, #08081a);
+}
+
+img
+{
+    height: auto;
+    width: 90%;
+    border: none;
+    animation: visibility 2s linear;
+}
+@keyframes visibility {
+    0%{
+        scale:0;
+    }
+    100%{
+        scale:1;
+    }
+}
+.card
+{
+    box-shadow: rgba(255, 255, 255, 0.247)4px 16px, rgba(255, 255, 255, 0.1) 0px 8px 24px, rgba(255, 255, 255, 0.1) 0px 16px 56px;
+}
+
+.links
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background: black;
+    font-size: 2em;
+}
+
+.links a:hover
+{
+    color: white;
+}
